@@ -17,7 +17,7 @@ programa
 		E = N - 50
 		se(N<=50){
 		salario = (N*10)
-		escreva("Valor a receber: ", " R$",salario)}
+		}
 		senao{salario = (50*10) + (20*E)		      
 			}
 			escreva("Valor a receber: ", " R$", salario)
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 436; 
+ * @POSICAO-CURSOR = 365; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
