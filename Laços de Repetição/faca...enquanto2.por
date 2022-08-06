@@ -3,25 +3,9 @@ programa
 	
 	funcao inicio()
 	{
-		/*cálculo de variáveis na pesagem de tomates
-		e pagamentos de multas*/
-
-		real p //peso
-		real ex //excesso
-		real m //multa
-
-		escreva("Peso total: ")
-		leia(p)
-		
-		se (p > 50){
-			ex = p - 50
-			m = 4 * ex
-		}
-		senao{
-			ex  = 0
-			m = 0
-		}
-		escreva("Excesso de peso: ", ex, "\nValor a pagar: ", m)				
+		/*2- Faça um programa que pegue um número do teclado e calcule a soma de todos os
+               números de 1 até ele. Ex.: o usuário entra 7, o programa vai mostrar 28, pois
+               1+2+3+4+5+6+7=28.*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +13,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 345; 
+ * @POSICAO-CURSOR = 230; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

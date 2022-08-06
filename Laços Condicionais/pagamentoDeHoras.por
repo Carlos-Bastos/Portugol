@@ -3,8 +3,9 @@ programa
 	
 	funcao inicio()
 	{
-	/*cálculo de pagamentos de horas
-	*/
+		/*cálculo de pagamentos de horas
+	 	 */
+	 	 
 		cadeia C //código ou nome do operário
 		real N //número de horas trabalhadas
 		real salario//R$ 10,00/hora
@@ -12,22 +13,26 @@ programa
 		
 		escreva("Digite o nome do operário: ")
 		leia(C)
+		
 		escreva("\nTotal de horas trabalhadas: ")
-		leia(N)
+		leia(N)		
 		E = N - 50
+		
 		se(N<=50){
 		salario = (N*10)
-		}
+				}
 		senao{salario = (50*10) + (20*E)		      
-			}
+			 }
 			escreva("Valor a receber: ", " R$", salario)
-		}}
+			escreva("\nValor das horas extras: ", " R$", E*20)
+	 }
+ }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 365; 
+ * @POSICAO-CURSOR = 384; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
