@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 programa
 {
 	
@@ -36,3 +37,31 @@ programa
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
+=======
+programa //INACABADO
+{
+	
+	funcao inicio()
+	{
+		cadeia estacoes[x]={"Verão","Outono","Inverno","Primavera"}
+
+		para
+(estacoes<=4,){
+			
+			escreva("Escolha uma estação: ")
+			leia(estacao)
+		}
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 116; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
+>>>>>>> f9e7113875058b8251756691ff502e637278db8d
