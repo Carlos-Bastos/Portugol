@@ -1,11 +1,12 @@
-programa
+programa //INACABADO
 {
 	
 	funcao inicio()
 	{
 		cadeia estacoes[x]={"Verão","Outono","Inverno","Primavera"}
 
-		para(estacoes<=4,){
+		para
+(estacoes<=4,){
 			
 			escreva("Escolha uma estação: ")
 			leia(estacao)
